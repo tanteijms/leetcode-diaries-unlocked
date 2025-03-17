@@ -1,26 +1,25 @@
 # Leetcode_Diaries_Unlocked
 ## by tanteijms
 
-## LeetCode Solutions  
+## LeetCode 题解记录  
 
-This repository is a personal practice collection of solutions for LeetCode problems.  
-Some algorithm ideas refer to 灵茶山艾府@EndlessCheng (https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md).  
+本仓库为个人练习 LeetCode 题库的答案集合，部分算法思路参考 灵茶山艾府@EndlessCheng (https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md)。  
 
-This repository is for personal practice and reference only.  
-If there are any mistakes or errors, please feel free to open an issue or contact me at tanteijms@bupt.edu.cn / tanteijmstrribbi@gmail.com.  
+本仓库仅作个人练习与记录之用。  
+若有纰漏或错误，欢迎提交 issue 或联系本人：tanteijms@bupt.edu.cn / tanteijmstrribbi@gmail.com。  
 
-## Acknowledgements  
-Some ideas are inspired by @EndlessCheng's repository, which is licensed under the MIT License.  
-If any code is directly adapted from it, the original MIT License is retained in the corresponding files.  
+## **致谢**  
+部分算法思路参考自 @EndlessCheng 的仓库，该仓库采用 MIT 许可证开源。  
+如果本仓库中的代码直接改编自该项目，将在相应文件中保留原始 MIT 许可证声明。  
 
-e.g.
+如下：
 ```cpp
 /*
- * Some parts of this code are adapted from @EndlessCheng's repository:
+ * 部分代码改编自 @EndlessCheng 的开源仓库：
  * https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/
- * Licensed under the MIT License.
+ * 该仓库采用 MIT 许可证开源。
  * 
- * Original License:
+ * 原始 MIT 许可证：
  * 
  *MIT License
  *
@@ -46,25 +45,26 @@ e.g.
  */
 ```
 
-## LeetCode 题解记录  
+## LeetCode Solutions  
 
-本仓库为个人练习 LeetCode 题库的答案集合，部分算法思路参考 灵茶山艾府@EndlessCheng (https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md)。  
+This repository is a personal practice collection of solutions for LeetCode problems.  
+Some algorithm ideas refer to 灵茶山艾府@EndlessCheng (https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/README.md).  
 
-本仓库仅作个人练习与记录之用。  
-若有纰漏或错误，欢迎提交 issue 或联系本人：tanteijms@bupt.edu.cn / tanteijmstrribbi@gmail.com。  
+This repository is for personal practice and reference only.  
+If there are any mistakes or errors, please feel free to open an issue or contact me at tanteijms@bupt.edu.cn / tanteijmstrribbi@gmail.com.  
 
-## **致谢**  
-部分算法思路参考自 @EndlessCheng 的仓库，该仓库采用 MIT 许可证开源。  
-如果本仓库中的代码直接改编自该项目，将在相应文件中保留原始 MIT 许可证声明。  
+## Acknowledgements  
+Some ideas are inspired by @EndlessCheng's repository, which is licensed under the MIT License.  
+If any code is directly adapted from it, the original MIT License is retained in the corresponding files.  
 
-如下：
+e.g.
 ```cpp
 /*
- * 部分代码改编自 @EndlessCheng 的开源仓库：
+ * Some parts of this code are adapted from @EndlessCheng's repository:
  * https://github.com/EndlessCheng/codeforces-go/blob/master/leetcode/
- * 该仓库采用 MIT 许可证开源。
+ * Licensed under the MIT License.
  * 
- * 原始 MIT 许可证：
+ * Original License:
  * 
  *MIT License
  *
