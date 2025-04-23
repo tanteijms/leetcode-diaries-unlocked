@@ -9,7 +9,7 @@ public:
         vector<int> pairs;
         for (int a : spells)
         {
-            long long sub_success = (success + a - 1) / a; // 默认向下取整了，但这样a*sub_success可能比success要小
+            long long sub_success = (success + a - 1) / a; // 可数学上证明是向上取整，确保乘起来是≥success的
             // 只需要找到potions里大于等于sub_success的数的个数。已对potions排序，二分
 
             int index = distance(potions.begin(), lower_bound(potions.begin(), potions.end(), sub_success));

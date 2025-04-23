@@ -13,8 +13,8 @@ public:
             // 所以要在排序后的nums里，找到大于等于target2、且小于等于target1，满足这两个条件的数
             int index1 = i + 1 + distance(nums.begin() + i + 1, lower_bound(nums.begin() + i + 1, nums.end(), target2));
             int index2 = i + 1 + distance(nums.begin() + i + 1, upper_bound(nums.begin() + i + 1, nums.end(), target1)) - 1;
-            // 思考二分查找的范围到底怎么确定
-            ans += index2 - index1 + 1;
+            // upper_bound是恰好大于target值的第一个数
+            ans += (long long)index2 - index1 + 1;
         }
         return ans;
     }
