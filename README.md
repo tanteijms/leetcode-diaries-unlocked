@@ -1,4 +1,4 @@
-# Leetcode_Diaries_Unlocked
+# leetcode-diaries-unlocked
 ## by tanteijms
 
 ## 题目索引
