@@ -38,9 +38,9 @@
 
 **提示：**
 
-- $2 <= nums.length <= 10^4$
-- $-10^9 <= nums[i] <= 10^9$
-- $-10^9 <= target <= 10^9$
+- <code>2 <= nums.length <= 10<sup>4</sup></code>
+- <code>-10<sup>9</sup> <= nums[i] <= 10<sup>9</sup></code>
+- <code>-10<sup>9</sup> <= target <= 10<sup>9</sup></code>
 - **只会存在一个有效答案**
 
 
@@ -128,7 +128,7 @@ public:
    - 如果i是vector的第一个元素，那么找到第二个元素就return了
    - 如果i不是第一个元素，那么找到第一个元素就直接return了
 
-   因此并不是$O(n^2)$的时间复杂度
+   因此并不是<code>O(n<sup>2</sup>)</code>的时间复杂度
 
 
 
